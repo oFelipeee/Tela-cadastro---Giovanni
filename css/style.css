@@ -18,8 +18,9 @@ body {
     width: 80%;
     max-width: 600px;
     margin: 20px auto;
+    margin-top: 8%;
     padding: 20px;
-    background: #000000;
+    background: #00000095;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -79,6 +80,9 @@ button[type="button"] {
 
 #dados-lista {
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0;
     color: white;
 
