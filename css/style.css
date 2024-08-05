@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background: linear-gradient(100deg, rgb(24, 17, 17), rgb(104, 1, 1));
+    font-family: 'Roboto', sans-serif;
+    background-color: #00000063;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #000000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #ff000083;
+    color: #fff;
+    margin: auto;
+}
+
+button[type="button"] {
+    background-color: #ff0000;
+    color: #fff;
+    margin:auto;
+}
+
+#excluir{
+    margin-top: 10px;
+}
+
+#cadastrar{
+    margin-top: 10px;
+}
+
+#lista-cadastros {
+    margin-top: 20px;
+    color: white;
+}
+
+#dados-lista {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+
+}
+
+#dados-lista li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+h1, label{
+    color: white;
+}
